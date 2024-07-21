@@ -1,0 +1,14 @@
+C:\Users\ZBook\source\repos\SimpleChat.DAL\bin\Debug\net8.0\SimpleChat.DAL.deps.json
+C:\Users\ZBook\source\repos\SimpleChat.DAL\bin\Debug\net8.0\SimpleChat.DAL.runtimeconfig.json
+C:\Users\ZBook\source\repos\SimpleChat.DAL\bin\Debug\net8.0\SimpleChat.DAL.dll
+C:\Users\ZBook\source\repos\SimpleChat.DAL\bin\Debug\net8.0\SimpleChat.DAL.pdb
+C:\Users\ZBook\source\repos\SimpleChat.DAL\obj\Debug\net8.0\SimpleChat.DAL.csproj.AssemblyReference.cache
+C:\Users\ZBook\source\repos\SimpleChat.DAL\obj\Debug\net8.0\SimpleChat.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ZBook\source\repos\SimpleChat.DAL\obj\Debug\net8.0\SimpleChat.DAL.AssemblyInfoInputs.cache
+C:\Users\ZBook\source\repos\SimpleChat.DAL\obj\Debug\net8.0\SimpleChat.DAL.AssemblyInfo.cs
+C:\Users\ZBook\source\repos\SimpleChat.DAL\obj\Debug\net8.0\SimpleChat.DAL.csproj.CoreCompileInputs.cache
+C:\Users\ZBook\source\repos\SimpleChat.DAL\obj\Debug\net8.0\SimpleChat.DAL.dll
+C:\Users\ZBook\source\repos\SimpleChat.DAL\obj\Debug\net8.0\refint\SimpleChat.DAL.dll
+C:\Users\ZBook\source\repos\SimpleChat.DAL\obj\Debug\net8.0\SimpleChat.DAL.pdb
+C:\Users\ZBook\source\repos\SimpleChat.DAL\obj\Debug\net8.0\SimpleChat.DAL.genruntimeconfig.cache
+C:\Users\ZBook\source\repos\SimpleChat.DAL\obj\Debug\net8.0\ref\SimpleChat.DAL.dll
