@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SimpleChat.DAL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+94cc958a00f44d12bdee7c9afd749904da435619")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cc19b3055bdb66a71dda050b211804796a09c3d2")]
 [assembly: System.Reflection.AssemblyProductAttribute("SimpleChat.DAL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SimpleChat.DAL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

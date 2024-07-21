@@ -17,10 +17,6 @@ public class ChatDbContext : DbContext
 
     }
 
-    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-    {
-        optionsBuilder.UseSqlServer("Data Source=DESKTOP-TA43178;Initial Catalog=simple_chat_db;Integrated Security=True;Connect Timeout=30;TrustServerCertificate=True");
-    }
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         base.OnModelCreating(modelBuilder);
