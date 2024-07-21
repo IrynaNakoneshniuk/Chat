@@ -6,8 +6,10 @@ using SimpleChat.DAL.Persistence;
 using SimpleChat.DAL.Repositories.Interfaces;
 using SimpleChat.DAL.Repositories.Interfaces.ChatParticipants;
 using SimpleChat.DAL.Repositories.Interfaces.Chats;
+using SimpleChat.DAL.Repositories.Interfaces.Messages;
 using SimpleChat.DAL.Repositories.Realizations.ChatParticipants;
 using SimpleChat.DAL.Repositories.Realizations.Chats;
+using SimpleChat.DAL.Repositories.Realizations.Messages;
 using SimpleChat.DAL.Repositories.Realizations.Users;
 using SimpleChat.WebApi.Hubs;
 using SimpleChat.WebApi.Services.Interfaces;
@@ -40,6 +42,7 @@ builder.Services.AddDbContext<ChatDbContext>(options =>
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IChatRepository, ChatRepository>();
 builder.Services.AddScoped<IChatParticipantRepository, ChatParticipantRepository>();
+builder.Services.AddScoped<IMessageRepository, MessageRepository>();
 builder.Services.AddScoped<IChatService,ChatService>();
 builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblies(currentAssemblies));
 builder.Services.AddAutoMapper(currentAssemblies);

@@ -10,16 +10,15 @@ public class MessageConfiguration : IEntityTypeConfiguration<Message>
     {
         builder.ToTable("messages");
         builder.HasKey(m => m.Id);
-        builder.Property(c => c.Id).ValueGeneratedOnAdd();
-        builder.Property(m => m.Content)
-               .IsRequired();
-
+        builder.Property(m => m.Id).ValueGeneratedOnAdd();
         builder.HasOne(m => m.User)
-               .WithMany()
-               .HasForeignKey(m => m.UserId);
+               .WithMany() 
+               .HasForeignKey(m => m.UserId)
+               .OnDelete(DeleteBehavior.Restrict); 
 
         builder.HasOne(m => m.Chat)
-               .WithMany(c => c.Messages)
-               .HasForeignKey(m => m.ChatId);
+               .WithMany(c => c.Messages) 
+               .HasForeignKey(m => m.ChatId)
+               .OnDelete(DeleteBehavior.Cascade);
     }
 }

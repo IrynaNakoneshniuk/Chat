@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SimpleChat.BLL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e62fc132287c14914887f507a27713e4dfe0eaa1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+94cc958a00f44d12bdee7c9afd749904da435619")]
 [assembly: System.Reflection.AssemblyProductAttribute("SimpleChat.BLL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SimpleChat.BLL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

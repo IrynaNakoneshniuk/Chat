@@ -1,0 +1,14 @@
+﻿using Ardalis.Specification;
+using SimpleChat.DAL.Models.Chats;
+
+namespace SimpleChat.BLL.Specification.Chats;
+
+public class ChatByIdWithParticipantsSpec : Specification<Chat>
+{
+    public ChatByIdWithParticipantsSpec(int chatId)
+    {
+        Query.Include(chat => chat.ChatParticipant)
+             .ThenInclude(cp => cp.User)
+             .Where(chat => chat.Id == chatId);
+    }
+}

@@ -9,7 +9,7 @@ public class Message
     public string Content { get; set; } = string.Empty;
     public DateTime Timestamp { get; set; }
     public int UserId { get; set; }
-    public User User { get; set; } = new();
+    public User ? User { get; set; } = new();
     public int ChatId { get; set; }
-    public Chat Chat { get; set; } = new();
+    public Chat ? Chat { get; set; } = new();
 }

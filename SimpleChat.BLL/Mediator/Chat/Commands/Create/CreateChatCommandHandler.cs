@@ -78,6 +78,8 @@ public class CreateChatCommandHandler : IRequestHandler<CreateChatCommand, Resul
     private async Task<List<ChatParticipant>> CreateParticipantsAsync(Chat chat, List<int> participantIds)
     {
         var participants = new List<ChatParticipant>();
+        participantIds.Add(chat.CreatedByUserId);
+
         foreach (var participantId in participantIds)
         {
             var participant = await GetUserById(participantId);

@@ -7,7 +7,7 @@ public class ChatParticipant
 {
     public int Id { get; set; }
     public int ChatId { get; set; }
-    public Chat Chat { get; set; } = new();
+    public Chat ?Chat { get; set; } = new();
     public int UserId { get; set; }
-    public User User { get; set; } = new();
+    public User ?User { get; set; } = new();
 }
