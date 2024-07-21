@@ -349,3 +349,6 @@ C:\Users\ZBook\source\repos\Chat\SimpleChat.XIntegrationTests\obj\Debug\net8.0\r
 C:\Users\ZBook\source\repos\Chat\SimpleChat.XIntegrationTests\obj\Debug\net8.0\SimpleChat.XIntegrationTests.pdb
 C:\Users\ZBook\source\repos\Chat\SimpleChat.XIntegrationTests\obj\Debug\net8.0\SimpleChat.XIntegrationTests.genruntimeconfig.cache
 C:\Users\ZBook\source\repos\Chat\SimpleChat.XIntegrationTests\obj\Debug\net8.0\ref\SimpleChat.XIntegrationTests.dll
+C:\Users\ZBook\source\repos\Chat\SimpleChat.XIntegrationTests\bin\Debug\net8.0\Castle.Core.dll
+C:\Users\ZBook\source\repos\Chat\SimpleChat.XIntegrationTests\bin\Debug\net8.0\Moq.dll
+C:\Users\ZBook\source\repos\Chat\SimpleChat.XIntegrationTests\bin\Debug\net8.0\Moq.EntityFrameworkCore.dll

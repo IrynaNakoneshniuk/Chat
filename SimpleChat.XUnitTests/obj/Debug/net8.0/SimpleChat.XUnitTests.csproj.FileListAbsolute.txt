@@ -349,3 +349,7 @@ C:\Users\ZBook\source\repos\Chat\SimpleChat.XUnitTests\obj\Debug\net8.0\refint\S
 C:\Users\ZBook\source\repos\Chat\SimpleChat.XUnitTests\obj\Debug\net8.0\SimpleChat.XUnitTests.pdb
 C:\Users\ZBook\source\repos\Chat\SimpleChat.XUnitTests\obj\Debug\net8.0\SimpleChat.XUnitTests.genruntimeconfig.cache
 C:\Users\ZBook\source\repos\Chat\SimpleChat.XUnitTests\obj\Debug\net8.0\ref\SimpleChat.XUnitTests.dll
+C:\Users\ZBook\source\repos\Chat\SimpleChat.XUnitTests\bin\Debug\net8.0\Castle.Core.dll
+C:\Users\ZBook\source\repos\Chat\SimpleChat.XUnitTests\bin\Debug\net8.0\FluentAssertions.dll
+C:\Users\ZBook\source\repos\Chat\SimpleChat.XUnitTests\bin\Debug\net8.0\Moq.dll
+C:\Users\ZBook\source\repos\Chat\SimpleChat.XUnitTests\bin\Debug\net8.0\Moq.EntityFrameworkCore.dll

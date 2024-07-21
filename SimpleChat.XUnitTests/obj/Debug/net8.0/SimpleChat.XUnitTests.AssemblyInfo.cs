@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SimpleChat.XUnitTests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+94cc958a00f44d12bdee7c9afd749904da435619")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0674593a75ac8a6acf2925025d246d7df045aebf")]
 [assembly: System.Reflection.AssemblyProductAttribute("SimpleChat.XUnitTests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SimpleChat.XUnitTests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
