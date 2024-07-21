@@ -11,6 +11,7 @@ using SimpleChat.DAL.Repositories.Realizations.ChatParticipants;
 using SimpleChat.DAL.Repositories.Realizations.Chats;
 using SimpleChat.DAL.Repositories.Realizations.Messages;
 using SimpleChat.DAL.Repositories.Realizations.Users;
+using SimpleChat.WebApi.Extensions;
 using SimpleChat.WebApi.Hubs;
 using SimpleChat.WebApi.Services.Interfaces;
 using SimpleChat.WebApi.Services.Realizations;
@@ -50,6 +51,7 @@ builder.Services.AddValidatorsFromAssembly(Assembly.Load("SimpleChat.BLL"));
 builder.Services.AddTransient(typeof(IPipelineBehavior<,>), typeof(ValidationBehavior<,>));
 
 var app = builder.Build();
+app.UseExceptionHandlingMiddleware();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
