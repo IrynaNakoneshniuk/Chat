@@ -1,7 +1,6 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.SignalR;
 using SimpleChat.BLL.DTO.Chats;
-using SimpleChat.BLL.Specification.Chats;
 using SimpleChat.BLL.Specification.Users;
 using SimpleChat.DAL.Repositories.Interfaces;
 using SimpleChat.DAL.Repositories.Interfaces.Chats;

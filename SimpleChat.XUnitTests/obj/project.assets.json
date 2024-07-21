@@ -9747,11 +9747,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ZBook\\source\\repos\\SimpleChat.XUnitTests\\SimpleChat.XUnitTests.csproj",
+      "projectUniqueName": "C:\\Users\\ZBook\\source\\repos\\Chat\\SimpleChat.XUnitTests\\SimpleChat.XUnitTests.csproj",
       "projectName": "SimpleChat.XUnitTests",
-      "projectPath": "C:\\Users\\ZBook\\source\\repos\\SimpleChat.XUnitTests\\SimpleChat.XUnitTests.csproj",
+      "projectPath": "C:\\Users\\ZBook\\source\\repos\\Chat\\SimpleChat.XUnitTests\\SimpleChat.XUnitTests.csproj",
       "packagesPath": "C:\\Users\\ZBook\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ZBook\\source\\repos\\SimpleChat.XUnitTests\\obj\\",
+      "outputPath": "C:\\Users\\ZBook\\source\\repos\\Chat\\SimpleChat.XUnitTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -9773,14 +9773,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\ZBook\\source\\repos\\SimpleChat.BLL\\SimpleChat.BLL.csproj": {
-              "projectPath": "C:\\Users\\ZBook\\source\\repos\\SimpleChat.BLL\\SimpleChat.BLL.csproj"
+            "C:\\Users\\ZBook\\source\\repos\\Chat\\SimpleChat.BLL\\SimpleChat.BLL.csproj": {
+              "projectPath": "C:\\Users\\ZBook\\source\\repos\\Chat\\SimpleChat.BLL\\SimpleChat.BLL.csproj"
             },
-            "C:\\Users\\ZBook\\source\\repos\\SimpleChat.DAL\\SimpleChat.DAL.csproj": {
-              "projectPath": "C:\\Users\\ZBook\\source\\repos\\SimpleChat.DAL\\SimpleChat.DAL.csproj"
+            "C:\\Users\\ZBook\\source\\repos\\Chat\\SimpleChat.DAL\\SimpleChat.DAL.csproj": {
+              "projectPath": "C:\\Users\\ZBook\\source\\repos\\Chat\\SimpleChat.DAL\\SimpleChat.DAL.csproj"
             },
-            "C:\\Users\\ZBook\\source\\repos\\SimpleChat\\SimpleChat.WebApi.csproj": {
-              "projectPath": "C:\\Users\\ZBook\\source\\repos\\SimpleChat\\SimpleChat.WebApi.csproj"
+            "C:\\Users\\ZBook\\source\\repos\\Chat\\SimpleChat\\SimpleChat.WebApi.csproj": {
+              "projectPath": "C:\\Users\\ZBook\\source\\repos\\Chat\\SimpleChat\\SimpleChat.WebApi.csproj"
             }
           }
         }

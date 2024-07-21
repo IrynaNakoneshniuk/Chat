@@ -3119,11 +3119,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ZBook\\source\\repos\\SimpleChat.BLL\\SimpleChat.BLL.csproj",
+      "projectUniqueName": "C:\\Users\\ZBook\\source\\repos\\Chat\\SimpleChat.BLL\\SimpleChat.BLL.csproj",
       "projectName": "SimpleChat.BLL",
-      "projectPath": "C:\\Users\\ZBook\\source\\repos\\SimpleChat.BLL\\SimpleChat.BLL.csproj",
+      "projectPath": "C:\\Users\\ZBook\\source\\repos\\Chat\\SimpleChat.BLL\\SimpleChat.BLL.csproj",
       "packagesPath": "C:\\Users\\ZBook\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ZBook\\source\\repos\\SimpleChat.BLL\\obj\\",
+      "outputPath": "C:\\Users\\ZBook\\source\\repos\\Chat\\SimpleChat.BLL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -3145,8 +3145,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\ZBook\\source\\repos\\SimpleChat.DAL\\SimpleChat.DAL.csproj": {
-              "projectPath": "C:\\Users\\ZBook\\source\\repos\\SimpleChat.DAL\\SimpleChat.DAL.csproj"
+            "C:\\Users\\ZBook\\source\\repos\\Chat\\SimpleChat.DAL\\SimpleChat.DAL.csproj": {
+              "projectPath": "C:\\Users\\ZBook\\source\\repos\\Chat\\SimpleChat.DAL\\SimpleChat.DAL.csproj"
             }
           }
         }

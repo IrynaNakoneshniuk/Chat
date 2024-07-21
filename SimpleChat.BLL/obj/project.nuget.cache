@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jMwL8FYgqL8=",
+  "dgSpecHash": "7uWCmSPoit0=",
   "success": true,
-  "projectFilePath": "C:\\Users\\ZBook\\source\\repos\\SimpleChat.BLL\\SimpleChat.BLL.csproj",
+  "projectFilePath": "C:\\Users\\ZBook\\source\\repos\\Chat\\SimpleChat.BLL\\SimpleChat.BLL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ZBook\\.nuget\\packages\\ardalis.specification\\8.0.0\\ardalis.specification.8.0.0.nupkg.sha512",
     "C:\\Users\\ZBook\\.nuget\\packages\\ardalis.specification.entityframeworkcore\\8.0.0\\ardalis.specification.entityframeworkcore.8.0.0.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ZBook\\source\\repos\\SimpleChat.DAL\\SimpleChat.DAL.csproj": {}
+    "C:\\Users\\ZBook\\source\\repos\\Chat\\SimpleChat.DAL\\SimpleChat.DAL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ZBook\\source\\repos\\SimpleChat.DAL\\SimpleChat.DAL.csproj": {
+    "C:\\Users\\ZBook\\source\\repos\\Chat\\SimpleChat.DAL\\SimpleChat.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ZBook\\source\\repos\\SimpleChat.DAL\\SimpleChat.DAL.csproj",
+        "projectUniqueName": "C:\\Users\\ZBook\\source\\repos\\Chat\\SimpleChat.DAL\\SimpleChat.DAL.csproj",
         "projectName": "SimpleChat.DAL",
-        "projectPath": "C:\\Users\\ZBook\\source\\repos\\SimpleChat.DAL\\SimpleChat.DAL.csproj",
+        "projectPath": "C:\\Users\\ZBook\\source\\repos\\Chat\\SimpleChat.DAL\\SimpleChat.DAL.csproj",
         "packagesPath": "C:\\Users\\ZBook\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ZBook\\source\\repos\\SimpleChat.DAL\\obj\\",
+        "outputPath": "C:\\Users\\ZBook\\source\\repos\\Chat\\SimpleChat.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
