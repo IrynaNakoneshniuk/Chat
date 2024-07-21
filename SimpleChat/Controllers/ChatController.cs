@@ -4,6 +4,7 @@ using SimpleChat.BLL.DTO.Chats;
 using SimpleChat.BLL.Mediator.Chats.Commands.Create;
 using SimpleChat.BLL.Mediator.Chats.Commands.Delete;
 using SimpleChat.BLL.Mediator.Chats.Queries.GetAllByUserId;
+using SimpleChat.BLL.Mediator.Chats.Queries.SearchChat;
 using SimpleChat.WebApi.Services.Interfaces;
 
 
@@ -61,5 +62,18 @@ public class ChatController : ControllerBase
         }
 
         return BadRequest(result.Errors);
+    }
+
+    [HttpGet("search")]
+    public async Task<IActionResult> SearchChats([FromQuery] string searchTerm)
+    {
+        var result = await _mediator.Send(new SearchChatsQuery(searchTerm));
+
+        if (result.IsSuccess)
+        {
+            return Ok(result.Value);
+        }
+
+        return NotFound(result.Errors);
     }
 }

@@ -45,13 +45,17 @@ public class ChatService : IChatService
 
         if (chatDto.CreatedByUserId == userId)
         {
-            // User is the creator, notify users and remove all from group
-            foreach (var participant in chatDto.Participants)
+            if (!string.IsNullOrEmpty(chatDto.CreatedByUser.ConnectionId))
             {
-                if (!string.IsNullOrEmpty(participant.ConnectionId))
+                await _hubContext.Clients.Client(chatDto.CreatedByUser.ConnectionId).SendAsync("ChatDeleted", chatDto);
+                // User is the creator, notify users and remove all from group
+                foreach (var participant in chatDto.Participants)
                 {
-                    await _hubContext.Groups.RemoveFromGroupAsync(participant.ConnectionId, chatDto.ChatName);
-                    await _hubContext.Clients.Client(participant.ConnectionId).SendAsync("ChatDeleted", chatDto.ChatName);
+                    if (!string.IsNullOrEmpty(participant.ConnectionId))
+                    {
+                        await _hubContext.Groups.RemoveFromGroupAsync(participant.ConnectionId, chatDto.ChatName);
+                        await _hubContext.Clients.Client(participant.ConnectionId).SendAsync("ChatDeleted", chatDto);
+                    }
                 }
             }
         }
